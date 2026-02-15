@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { api } from './services/api';
 import type { PortfolioData } from './types/index';
 import Hero from './components/Hero';
@@ -83,6 +84,8 @@ function App() {
       <footer className="footer">
         <p>&copy; 2024 {portfolioData.name}. Built with React, TypeScript, Node.js & Express.</p>
       </footer>
+      
+      <Analytics />
     </div>
   );
 }
