@@ -81,7 +81,7 @@ function App() {
       <Contact />
 
       <footer className="footer">
-        <p>&copy; 2024 {portfolioData.name}. Built with React, TypeScript, Node.js & Express.</p>
+        <p>&copy; 2025 {portfolioData.name}. Built with React, TypeScript, Node.js & Express.</p>
       </footer>
     </div>
   );
